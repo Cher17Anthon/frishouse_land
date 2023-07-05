@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	
+	<title>404 - Страница не найдена | Modul2</title>
+	<meta name="description" content="Кажется страница уехала на повторную сборку, либо находится в проектировании. Как же хорошо, что всегда можно начать с начала.">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#ffffff">
+	<meta property="og:url" content="https://modul-2.ru/404/">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Modul2">
+	<meta property="og:image" content>
+	<meta property="og:title" content="404 - Страница не найдена | Modul2">
+	<meta property="og:description" content="Кажется страница уехала на повторную сборку, либо находится в проектировании. Как же хорошо, что всегда можно начать с начала.">
+	<meta name="yandex-verification" content="5ea6d1ebb801da67">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<meta name="google-site-verification" content="QudJKDU9cr1d0pJlhFrlZuR_EOPJYcBmNkv4Z1UMmik">
+	<link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+	<link type="text/css" href="/assets/template/site/css/uikit.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+	<noscript>
+		<link type="text/css" href="../css/uikit.min.css" rel="stylesheet">
+	</noscript>
+	<link type="text/css" href="/assets/template/site/css/include/icomoon.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+	<noscript>
+		<link type="text/css" href="../css/icomoon.css" rel="stylesheet">
+	</noscript>
+	<link type="text/css" href="/assets/template/site/css/rateit.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+	<noscript>
+		<link type="text/css" href="../css/rateit.css" rel="stylesheet">
+	</noscript>
+	<link type="text/css" href="/assets/template/site/css/tooltipster.bundle.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+	<noscript>
+		<link type="text/css" href="../css/tooltipster.bundle.min.css" rel="stylesheet">
+	</noscript>
+	<link type="text/css" href="/assets/template/site/css/style.css?v=1686317817" rel="preload" as="style" onload="this.rel='stylesheet'">
+	<noscript>
+		<link type="text/css" href="../css/style.css" rel="stylesheet">
+	</noscript>
+	
+<script type="text/javascript">!function(){ var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.com/js/api/openapi.js?169',t.onload=function(){ VK.Retargeting.Init("VK-RTRG-1727849-bXrux"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1727849-bXrux" style="position:fixed; left:-999px;" alt></noscript>
+
+<!-- Pixel -->
+<script type="text/javascript">
+    (function (d, w) { 
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://qoopler.ru/index.php?ref="+d.referrer+"&page=" + encodeURIComponent(w.location.href);
+            n.parentNode.insertBefore(s, n);
+    })(document, window);
+</script>
+<!-- /Pixel -->
+<!-- Marquiz script start -->
+<!-- Marquiz script start -->
+<script>
+(function(w, d, s, o){ 
+  var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() { 
+    if (document.readyState !== 'loading') Marquiz.init(o);
+    else document.addEventListener("DOMContentLoaded", function() { 
+      Marquiz.init(o);
+    });
+  };
+  d.head.insertBefore(j, d.head.firstElementChild);
+})(window, document, 'script', { 
+    host: '//quiz.marquiz.ru',
+    region: 'eu',
+    id: '644933415b412a0025491a49',
+    autoOpen: 60,
+    autoOpenFreq: 'once',
+    openOnExit: false,
+    disableOnMobile: false
+  }
+);
+</script>
+<!-- Marquiz script end -->
+<!-- Marquiz script end -->
+
+
+
+	
+
+	<!-- Google tag (gtag.js) -->
+<link rel="stylesheet" href="../css/default.css" type="text/css">
+<link rel="stylesheet" href="../css/jquery.jgrowl.min.css" type="text/css">
+<script>miniShop2Config = {"close_all_message":"ms2_message_close_all","cssUrl":"\/assets\/components\/minishop2\/css\/web\/","jsUrl":"\/assets\/components\/minishop2\/js\/web\/","actionUrl":"\/assets\/components\/minishop2\/action.php","ctx":"web","price_format":[2,"."," "],"price_format_no_zeros":true,"weight_format":[3,"."," "],"weight_format_no_zeros":true};</script>
+</head><body>        
+    <section class="section">
+        <div class="uk-container">
+            <h1>Ой, ошибочка</h1>
+            <div class="uk-grid mb-40" uk-grid>
+                <div class="uk-width-2-3 ">
+                    <p class="error__desc">Кажется страница уехала на повторную сборку, либо находится в проектировании. Как же хорошо, что всегда можно начать с начала.</p>
+                </div>
+                <div class="uk-width-1-3 error__button">
+                    <a class="btn err__btn" href="/">Перейти на главную</a>
+                </div>                
+            </div>            
+            <img class="uk-width-1-1" src="404.png" alt>
+        </div>
+    </section>
+
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/uikit.min.js" type="text/javascript"></script>
+<script src="../js/default.js"></script>
+<script src="../js/jquery.jgrowl.min.js"></script>
+<script src="../js/message_settings.js"></script>
+</body>
+</html>

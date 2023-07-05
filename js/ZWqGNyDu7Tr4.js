@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{(()=>{const e=document.querySelector(".header");let d,n=window.pageYOffset;window.addEventListener("scroll",(()=>{d=window.pageYOffset;const t=()=>e.classList.contains("header_hidden");d>n&&t(),d<n&&t()&&e.classList.remove("header_hidden"),n=d}))})()}));
