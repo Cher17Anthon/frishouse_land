@@ -245,8 +245,13 @@ img {
         font-weight: 600;
         font-size: 30px;
         line-height: 120%;
+        margin-top: 60px;
         text-transform: uppercase;
         color: var(--color-black);
+    }
+
+    .uk-grid-footer {
+        justify-content: space-between;
     }
 }
 @media (min-width: 1200px) {
@@ -493,6 +498,12 @@ p:last-child {
 }
 header .social-list__item{
     width: 24px;
+    color: #FFFFFF;
+}
+
+header .social-list__item:hover {
+    width: 24px;
+    color: #1F1F1E;
 }
 header .social-list li:not(:last-child){
     margin-right: 5px;
@@ -501,6 +512,7 @@ header .social-list li:not(:last-child){
    
     font-size: 13px;
     line-height: 15px;
+    color: #fff;
 }
 
 header .social-list__item svg{
@@ -539,6 +551,10 @@ header .social-list__item svg{
         header .logo{
         width: 100px;
         display: block;
+    }
+
+    .uk-grid-footer {
+        justify-content: space-between;
     }
 }
 @media (min-width: 640px) {
@@ -602,9 +618,15 @@ header .social-list__item svg{
     font-size: 14px;
     line-height: 100%;
     text-align: center;
-    color: var(--color-black);
+    color: #fff;
     transition: color .2s ease-in-out;
     height: 100%;
+}
+
+.header_logo {
+    background: #156aa2;
+    height: 50px;
+    width: 100%;
 }
 /* .center-header__menu  >  li  >  ul {
     display: none;
@@ -616,10 +638,11 @@ header .social-list__item svg{
 }
 .center-header__menu > li > a:hover, .center-header__menu > li > a:focus {
     text-decoration: none;
-    color: var(--color-orange);
+    color: #1F1F1E;
 }
 .center-header__btn {
     padding: 14px 8px;
+    border: 2px solid #fff;
 }
 .center-header__btn:hover {
     color: var(--color-white);
@@ -678,18 +701,18 @@ header .social-list__item svg{
     font-size: 17px;
     line-height: 1;
     white-space: nowrap;
-    color: #2B3C5B;
+    color: #fff;
     margin-bottom: 4px;
 }
 .center-header__phone:hover, .center-header__phone:focus {
     text-decoration: none;
-    color: #0045FF;
+    color: #1F1F1E;
 }
 .center-header__hours {
     display: block;
     font-size: 13px;
     line-height: 1;
-    color: #2B3C5B;
+    color: #fff;
     margin-left: 10px;
 }
 /* center-head-4 end */
@@ -1259,7 +1282,6 @@ header .social-list__item svg{
     font-size: 14px;
     line-height: 140%;
     color: white;
-    opacity: 0.5;
     margin-bottom: 0;
 }
 .copyright__group {
@@ -1374,8 +1396,7 @@ header .social-list__item svg{
     font-weight: 400;
     font-size: 13px;
     line-height: 120%;
-    color: var(--color-white);
-    opacity: 0.5;
+    color: #fff;
 }
 .footer__phone:hover, .footer__phone:focus {
     color: var(--color-orange);
@@ -1425,6 +1446,10 @@ header .social-list__item svg{
 .social-list li:not(:last-child) {
     margin-right: 15px;
 }
+
+.footer_white {
+    color: #FFFFFF !important;
+}
 @media (min-width: 1200px) {
     .copyright {
         padding-top: 0;
@@ -1436,6 +1461,7 @@ header .social-list__item svg{
 }
 .copyright__text > a {
     color: inherit;
+    color: #fff;
     text-decoration: none;
 }
 .copyright__text > a:hover, .copyright__text > a:focus {
@@ -3024,7 +3050,7 @@ header .social-list__item svg{
     display: none;
 }
 .uk-slider-nav > li.uk-active > a {
-    background: rgba(249, 148, 55, 0.7) !important;
+    background: #156aa2 !important;
 }
 .uk-dotnav > * > * {
     display: block;
@@ -3036,7 +3062,7 @@ header .social-list__item svg{
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;
-    border: 1px solid rgba(249, 148, 55, 0.7) !important;
+    border: 1px solid #156aa2 !important;
     transition: .2s ease-in-out;
     transition-property: background-color, border-color;
 }
@@ -7743,13 +7769,21 @@ select::-ms-expand {
 }
 
 .header_grey {
-    background-color: #E8EBEF;
+    background-color: #156aa2;
 }
 
 .uk-width-1-gallery {
     object-fit: fill;
     width: 100%;
     height: 100%;
+}
+
+.header_padding {
+    padding-left: 0;
+}
+
+.object_top_style {
+    margin-top: 60px;
 }
 
 /* invite end*/
