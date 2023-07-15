@@ -57,6 +57,7 @@ button {
     background: none;
     border: none;
 }
+
 img {
     max-width: 100%;
     object-fit: cover
@@ -536,7 +537,6 @@ header .social-list__item svg{
         margin-left: auto;
     }
     header .logo{
-        width: 120px;
         display: block;
     }
     header .tline{
@@ -549,7 +549,6 @@ header .social-list__item svg{
 }
 @media (max-width: 440px) {
         header .logo{
-        width: 100px;
         display: block;
     }
 
@@ -582,11 +581,37 @@ header .social-list__item svg{
         min-width: 170px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .center-header__hoursrs {
+        margin-left: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .bottom-menu__nav {
+        display: none;
+    }
+
+    .cover-info__advantages {
+        width: auto;
+        top: 35%;
+    }
+
+    .header_logo {
+        height: auto;
+        object-fit: fill;
+        width: 200px !important;
+    }
+}
 .center-header__menu {
     list-style: none;
     padding: 0;
     margin: 0;
     line-height: 22px;
+    margin-left: 15px;
 }
 .center-header__menu > li {
     position: relative;
@@ -627,6 +652,7 @@ header .social-list__item svg{
     background: #156aa2;
     height: 50px;
     width: 100%;
+    margin-left: 15px;
 }
 /* .center-header__menu  >  li  >  ul {
     display: none;
@@ -6281,9 +6307,7 @@ line-height: 58px;
         order: 99;
         margin-bottom: 0;
         position: absolute;
-        bottom: 10px;
         flex-direction: column;
-        width: 100%;
         
     }
     .cover-image__bg .cover-info__title {
@@ -7773,7 +7797,7 @@ select::-ms-expand {
 }
 
 .uk-width-1-gallery {
-    object-fit: fill;
+    object-fit: scale-down;
     width: 100%;
     height: 100%;
 }
@@ -7787,3 +7811,20 @@ select::-ms-expand {
 }
 
 /* invite end*/
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+    .uk-width-1-gallery {
+        object-fit: fill;
+        width: 100%;
+        height: 570px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .uk-width-1-gallery {
+        object-fit: fill;
+        width: 100%;
+        height: 288px;
+    }
+}
