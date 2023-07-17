@@ -80,7 +80,7 @@ button {
 @media screen and (max-width: 767px) {
     .image_projects {
         width: 100%;
-        height: 300px !important;
+        height: 400px !important;
         object-fit: fill;
     } 
 }
@@ -7856,6 +7856,10 @@ select::-ms-expand {
     .uk-width-1-gallery {
         object-fit: fill;
         width: 100%;
-        height: 288px;
+        height: 350px;
+    }
+
+    .uk-slider-item-img {
+        height: 300px;
     }
 }
